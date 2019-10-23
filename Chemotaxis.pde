@@ -50,10 +50,10 @@ Snowflake[] snowstorm;
 		noStroke();
  		fill(myColor);
  		ellipse(myX,myY,siz,siz);
- 		if(myX > 350 || myY > 325 || myX < 150 || myY < 150)
+ 		if(myX > 350 || myY > 335 || myX < 150 || myY < 150)
  		{
- 			myX = (int)(Math.random() * 175) + 175;
- 			myY = (int)(Math.random() * 150) + 150;
+ 			myX = (int)(Math.random() * 185) + 165;
+ 			myY = (int)(Math.random() * 150) + 145;
  		}
  	}
  }    
